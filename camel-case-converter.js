@@ -1,6 +1,10 @@
 // write a function that turns a string from snake_case to camelCase
-// 1. write function to locate letter that comes after understore and capitalises it
-// 2 write second function to remove underscore from string 
+
+// 1. write function to locate index of underscore
+// 2. extract string after underscore 
+// 3. extract string before underscore
+// 4. capitalise string after underscore 
+// 5. concatenate strings without underscore
 
 // test input: 
 // 'underscore_case'
