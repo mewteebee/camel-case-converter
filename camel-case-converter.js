@@ -15,7 +15,7 @@ function camelCaseConverter(str){
         let stringBeforeUnderscore = snakeCaseStr.slice(0, snakeCaseStr.indexOf('_')); // underscore
         let stringAfterUnderscore = (snakeCaseStr.slice((snakeCaseStr.indexOf('_') + 1), snakeCaseStr.length)); // case
         let stringAfterUnderscoreCapitalized = stringAfterUnderscore[0].toUpperCase() + stringAfterUnderscore.slice(1, (stringAfterUnderscore.length)); // Case
-        return stringBeforeUnderscore + "" + stringAfterUnderscoreCapitalized; // underscoreCase
+        return stringBeforeUnderscore + stringAfterUnderscoreCapitalized; // underscoreCase
     } else { // false
         return "Error, input must be snake_case.";
     }
